@@ -51,7 +51,7 @@ public class Game {
 
                     if (board.winCheck(board, p1)) {
                         board.showBoard(board);
-                        System.out.println("Player_1 Has Won....Congratulation!!");
+                        System.out.println("Player_1 Has Won...Congratulation!!");
                         ON = false;
                     } else if (board.boardCheck(board)) {
                         board.showBoard(board);
