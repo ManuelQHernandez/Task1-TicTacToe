@@ -25,8 +25,8 @@ public class Turn {
                 System.out.println("Error: Please Enter 'X' or 'O':/");
 
         }
-        System.out.println("Player 1 -> '" + player_1.getMarker() + "' as marker.");
-        System.out.println("Player 2 -> '" + player_2.getMarker() + "' as marker.");
+        System.out.println("Player 1 --> '" + player_1.getMarker() + "' as marker.");
+        System.out.println("Player 2 --> '" + player_2.getMarker() + "' as marker.");
     }
 
 
