@@ -22,7 +22,7 @@ public class Turn {
                 player_2.setMarker('X');
 
             } else
-                System.out.println("Error: Please Enter 'X' or 'O':/");
+                System.out.println("Error: Please enter 'X' or 'O':/");
 
         }
         System.out.println("Player 1 --> '" + player_1.getMarker() + "' as marker.");
