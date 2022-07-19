@@ -52,7 +52,7 @@ public class Board {
         if (spaceCheck(board, position)) {
             board.matrix[position] = (char) player.getMarker();
         } else {
-            System.err.println("Unavailable number!");
+            System.err.println("Unavailable number!!");
         }
 
     }
